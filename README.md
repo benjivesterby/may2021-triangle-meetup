@@ -1,9 +1,9 @@
-# April 2021 Triangle GoLang Virtual Meetup
+# May 2021 Triangle GoLang Virtual Meetup
 
-[![CI](https://github.com/benjivesterby/april2021-triangle-meetup/workflows/CI/badge.svg)](https://github.com/benjivesterby/april2021-triangle-meetup/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/benjivesterby/april2021-triangle-meetup)](https://goreportcard.com/report/github.com/benjivesterby/april2021-triangle-meetup)
-[![codecov](https://codecov.io/gh/devnw/april2021-triangle-meetup/branch/main/graph/badge.svg)](https://codecov.io/gh/devnw/april2021-triangle-meetup)
-[![Go Reference](https://pkg.go.dev/badge/github.com/benjivesterby/april2021-triangle-meetup.svg)](https://pkg.go.dev/github.com/benjivesterby/april2021-triangle-meetup)
+[![CI](https://github.com/benjivesterby/may2021-triangle-meetup/workflows/CI/badge.svg)](https://github.com/benjivesterby/may2021-triangle-meetup/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/benjivesterby/may2021-triangle-meetup)](https://goreportcard.com/report/github.com/benjivesterby/may2021-triangle-meetup)
+[![codecov](https://codecov.io/gh/devnw/may2021-triangle-meetup/branch/main/graph/badge.svg)](https://codecov.io/gh/devnw/may2021-triangle-meetup)
+[![Go Reference](https://pkg.go.dev/badge/github.com/benjivesterby/may2021-triangle-meetup.svg)](https://pkg.go.dev/github.com/benjivesterby/may2021-triangle-meetup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
