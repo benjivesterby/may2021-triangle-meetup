@@ -78,3 +78,35 @@ func rands(count int) <-chan int {
 
 	return out
 }
+
+func TypeFan(in <-chan interface{}) (<-chan int, <-chan string, <-chan []byte) {
+	ints := make(chan int)
+	strings := make(chan string)
+	bytes := make(chan []byte)
+
+	go func(in <-chan interface{}, ints chan<- int, strings chan<- string, bytes chan<- []byte) {
+		defer close(ints)
+		defer close(strings)
+		defer close(bytes)
+
+		for {
+			data, ok := <-in
+			if !ok {
+				return
+			}
+
+			switch value := data.(type) {
+			case int:
+				ints <- value
+			case string:
+				strings <- value
+			case []byte:
+				bytes <- value
+			default:
+				fmt.Printf("%T is an unsupported type", data)
+			}
+		}
+	}(in, ints, strings, bytes)
+
+	return ints, strings, bytes
+}
