@@ -1,7 +1,6 @@
 # May 2021 Triangle GoLang Virtual Meetup
 
 [![CI](https://github.com/benjivesterby/may2021-triangle-meetup/workflows/CI/badge.svg)](https://github.com/benjivesterby/may2021-triangle-meetup/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/benjivesterby/may2021-triangle-meetup)](https://goreportcard.com/report/github.com/benjivesterby/may2021-triangle-meetup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
