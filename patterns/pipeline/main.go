@@ -6,24 +6,29 @@ import (
 )
 
 func main() {
-	input := make(chan int)
-
-	go func() {
-		defer close(input)
-
-		for i := 0; i < 15; i++ {
-			value := rand.Int()
-			fmt.Printf("input %v\n", value)
-
-			input <- value
-		}
-	}()
-
 	// Create the pipeline
-	output := MultiplyFloat(Modulus32(SumRand(input)))
+	output := MultiplyFloat(Modulus32(SumRand(Rands(15))))
 	for v := range output {
 		fmt.Printf("output %v\n", v)
 	}
+}
+
+func Rands(count int) <-chan int {
+	out := make(chan int)
+
+	go func(out chan<- int) {
+		defer close(out)
+
+		for i := 0; i < count; i++ {
+			value := rand.Int()
+			fmt.Printf("input %v\n", value)
+
+			out <- value
+		}
+
+	}(out)
+
+	return out
 }
 
 func Modulus32(in <-chan int) <-chan int {
