@@ -6,6 +6,8 @@
 
 This [meetup event](https://www.meetup.com/Triangle-Golang-Meetup/events/277518605/) is going to cover the built-in concurrency primitives in Go.
 
+[Slides are located here](https://benjiv.com/go-native-concurrency-primitives-and-beginning-patterns/)
+
 This meetup will be relatively informal, allowing for questions and discussion during the event. A follow-along repository will be shared at the first part of the event and the presentation and materials will be shared after the meetup concludes.
 
 NOTE: The event is scheduled for 2-hours, but it may not take the full time depending on the questions / discussions.
